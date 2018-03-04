@@ -1,0 +1,24 @@
+Commandes git :
+
+-> git config --global user.name "Your Name"
+-> git config --global user.email you@example.com
+-> git commit --amend --reset-author
+-> git init
+-> git add [file|repository]
+-> git commit -m "message"
+-> git log
+-> git commit -a -m "message"
+-> git checkout [SHA_commit|name_branch]
+-> git revert [SHA_commit]
+-> git commit --amend -m "new_message"
+-> git reset --hard
+-> git status
+-> git remote add [name] [url.git]
+-> git remote remove [name]
+-> git remote set-url [name] [new_url]
+-> git clone [url]
+(TODO : cd ~/.ssh || ssh-keygen -t rsa -C "email" 
+then  copy id_rsa.pub to github:new_deploy_key)
+-> git push -u [remote] [branch]
+-> git clone [url.git]
+-> git pull [remote] [branch] 
